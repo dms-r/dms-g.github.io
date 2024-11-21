@@ -1,6 +1,5 @@
-remote_theme    : Drassil/git-wiki-theme
+remote_theme    : Drassil/git-wiki-theme@master
 plugins         :
-  - jekyll-remote-theme
   - jekyll-avatar
   - jekyll-coffeescript
   - jekyll-default-layout
@@ -17,19 +16,15 @@ plugins         :
   - jekyll-sitemap
   - jekyll-titles-from-headings
   - jemoji
-
+  - jekyll-gitlab-metadata
 
 title                   : dms wiki
 description             : 
-author                  : Dimas R
 lang                    : en
 encoding                : utf-8
-show_drafts             : false
 port                    : 443
-livereload              : true
-exclude                 : [_config.yml, README.md]
 git_branch              : "main"
-
+baseurl                 : "/"
 
 disable_edit            : false
 show_wiki_pages         : true
