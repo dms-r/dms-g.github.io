@@ -26,6 +26,7 @@ port                    : 443
 git_branch              : "main"
 baseurl                 : "/"
 
+search_engine           : "js"
 disable_edit            : false
 show_wiki_pages         : true
 show_wiki_pages_limit   : 10
