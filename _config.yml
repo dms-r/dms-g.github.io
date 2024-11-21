@@ -28,7 +28,7 @@ show_drafts             : false
 port                    : 443
 livereload              : true
 exclude                 : [_config.yml, README.md]
-git_branch              : "master"
+git_branch              : "main"
 
 
 disable_edit            : false
