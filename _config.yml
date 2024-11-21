@@ -1,0 +1,57 @@
+remote_theme    : Drassil/git-wiki-theme
+plugins         :
+  - jekyll-remote-theme
+  - jekyll-avatar
+  - jekyll-coffeescript
+  - jekyll-default-layout
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-mentions
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-remote-theme
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-titles-from-headings
+  - jemoji
+
+
+title                   : dms wiki
+description             : 
+author                  : Dimas R
+lang                    : en
+encoding                : utf-8
+show_drafts             : false
+port                    : 443
+livereload              : true
+exclude                 : [_config.yml, README.md]
+git_branch              : "master"
+
+
+disable_edit            : false
+show_wiki_pages         : true
+show_wiki_pages_limit   : 10
+blog_feature            : true
+show_wiki_posts         : true
+show_wiki_posts_limit   : 10
+paginate                : 5
+paginate_path           : "/page/:num"
+permalink               : "/post/:title"
+show_downloads          : false
+
+
+defaults:
+ -
+    scope:
+      path: ""
+    values:
+      layout: "git-wiki-bs-lux"
+ -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "git-wiki-bs-lux"
