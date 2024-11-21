@@ -24,7 +24,7 @@ lang                    : en
 encoding                : utf-8
 port                    : 443
 git_branch              : "main"
-baseurl                 : "/"
+baseurl                 : "/wiki"
 
 search_engine           : "js"
 disable_edit            : false
