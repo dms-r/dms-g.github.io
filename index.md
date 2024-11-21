@@ -1,5 +1,2 @@
----
-redirect_from: "/"
----
+## test code index
 
-## test code init
